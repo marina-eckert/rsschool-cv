@@ -5,7 +5,7 @@
 ## Contacts
 
 * Phone number: +7 911 979 59 50
-* E-mail: m.aap@inbox.ru
+* E-mail: mar2001aap@gmail.com
 * Telegram: @marina_dubograi
 * Discord: @marina-duborgrai
 * GitHub: @marina-eckert
