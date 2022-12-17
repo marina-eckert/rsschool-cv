@@ -2,7 +2,7 @@
 
 ## Junior Frontend Developer
 
-## Contacts
+## Contact Information
 
 * Phone number: +7 911 979 59 50
 * E-mail: mar2001aap@gmail.com
