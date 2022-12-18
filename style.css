@@ -1,3 +1,35 @@
-body {
-    color: #333;
-}
+@font-face {
+    font-family: 'Cinzel';
+     src: url("assets/fonts/Cinzel/static/Cinzel-Regular.ttf");
+     font-weight: 400;
+   }
+   
+   @font-face {
+    font-family: 'Cinzel';
+     src: url("assets/fonts/Cinzel/static/Cinzel-Bold.ttf");
+     font-weight: 700;
+   }
+   
+   body {
+       background-color: #0a3d57;
+       color: #F59584;
+       font-family: 'Cinzel', serif;
+   }
+   
+   a {
+       color: #F59584;
+   }
+   
+   .name,
+   .vacancy {
+       text-align: center;
+   }
+   
+   h2 {
+       font-weight: 700;
+   }
+   
+   .navigation {
+       display: inline-block;
+       padding: 15px;
+   }
