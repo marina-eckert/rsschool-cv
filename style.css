@@ -1,0 +1,99 @@
+@font-face {
+ font-family: 'Cinzel';
+  src: url("assets/fonts/Cinzel/static/Cinzel-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+ font-family: 'Cinzel';
+  src: url("assets/fonts/Cinzel/static/Cinzel-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0a3d57;
+    color: #F59584;
+    font-family: 'Cinzel', serif;
+    line-height: 1.5;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+a {
+    color: #F59584;
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: #F59584;
+    background-color: #041d32;
+    transition: .3s;
+}
+
+.name,
+.vacancy {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.nav-link {
+    padding: 15px;
+}
+
+
+.photo {
+    border-radius: 50%;
+    border: 2px solid #041d32;
+    display: block;
+    margin: auto;
+}
+  
+
+.section {
+    border: 2px dotted #041d32;
+    margin: 20px;
+    padding: 0 20px;
+    max-width: 95vw;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+}
